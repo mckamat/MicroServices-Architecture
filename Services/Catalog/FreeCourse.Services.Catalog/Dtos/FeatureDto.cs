@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Models
+namespace FreeCourse.Services.Catalog.Dtos
 {
-    internal class Feature
+    internal class FeatureDto
     {
         public int Duration { get; set; }
     }
