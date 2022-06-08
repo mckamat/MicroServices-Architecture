@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.Services.Interfaces
 {
-    interface ICategoryService
+    public interface ICategoryService
     {
         Task<Response<List<CategoryDto>>> GetAllAsync();
         Task<Response<CategoryDto>> CreateAsync(CategoryCreateDto categoryCreateDto);

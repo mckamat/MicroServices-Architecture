@@ -4,7 +4,7 @@ using System;
 
 namespace FreeCourse.Services.Catalog.Models
 {
-    internal class Category
+    public class Category
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
