@@ -20,8 +20,8 @@ namespace FreeCourse.Services.Catalog.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var categories = await _categoryService.GetAllAsync();
-            return CreateActionResultInstance(categories);
+            var categoriess = await _categoryService.GetAllAsync();
+            return CreateActionResultInstance(categoriess);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(string id)
