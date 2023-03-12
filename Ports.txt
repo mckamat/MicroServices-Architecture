@@ -2,4 +2,5 @@ Services
 
  -catalogAPI => http://localhost:5011
  -photostockAPI =>5012
+ -basket=>5013
  -identity =>5001
